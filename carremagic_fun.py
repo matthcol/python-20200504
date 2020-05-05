@@ -2,6 +2,10 @@
 """
 Created on Tue May  5 09:37:03 2020
 
+Ref :
+https://fr.wikipedia.org/wiki/Carr%C3%A9_magique_(math%C3%A9matiques)
+
+
 @author: Matthias
 """
 
@@ -25,7 +29,7 @@ def zeroSquare(n):
 
 def makeMagic(n):
 	if n%2 == 0:
-		return []
+		raise ValueError("even size is not possible")
 	nn = n**2
 	square = zeroSquare(n)
 	l,c = 0, n//2
