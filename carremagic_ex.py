@@ -1,4 +1,3 @@
-import numpy as np
 """
 Magic square examples
 """
