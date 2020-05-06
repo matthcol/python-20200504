@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cities>
+	<city name="Pau" cp="64000"/>
+	<city name="Paris" cp="75000"/>
+	<city name="Toulouse" cp="31000"/>
+</cities>

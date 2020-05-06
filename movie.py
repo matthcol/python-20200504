@@ -36,3 +36,30 @@ class Movie:
     def age(self):
         today = date.today()
         return today.year - self.year
+    
+    
+print('module Movie loaded')
+if __name__ == '__main__':
+    print('Application movie started')
+    m = Movie('No Time To Die',2020, 'Cary Joji Fukunaga')
+    print(m)
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

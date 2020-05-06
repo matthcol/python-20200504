@@ -10,6 +10,11 @@ https://fr.wikipedia.org/wiki/Carr%C3%A9_magique_(math%C3%A9matiques)
 """
 
 def isMagique(carre):
+    """
+    return if carre in parameter is magic with the following rules
+    - each line/column/diagonal has the same sum
+    - ... TODO ..
+    """
     n = len(carre)
     sm = n*(n**2+1)//2
     # verifier que toutes les lignes ont une somme égale à sm
